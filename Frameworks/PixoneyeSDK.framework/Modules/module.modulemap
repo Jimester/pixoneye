@@ -1,0 +1,6 @@
+framework module PixoneyeSDK {
+  umbrella header "PixoneyeSDK.h"
+
+  export *
+  module * { export * }
+}

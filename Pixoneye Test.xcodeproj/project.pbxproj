@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22424B3B2091E4E400D445CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22424B3A2091E4E400D445CC /* AppDelegate.m */; };
+		22424B3E2091E4E400D445CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22424B3D2091E4E400D445CC /* ViewController.m */; };
+		22424B412091E4E400D445CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22424B3F2091E4E400D445CC /* Main.storyboard */; };
+		22424B442091E4E400D445CC /* Pixoneye_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22424B422091E4E400D445CC /* Pixoneye_Test.xcdatamodeld */; };
+		22424B462091E4E600D445CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22424B452091E4E600D445CC /* Assets.xcassets */; };
+		22424B492091E4E600D445CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22424B472091E4E600D445CC /* LaunchScreen.storyboard */; };
+		22424B4C2091E4E600D445CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22424B4B2091E4E600D445CC /* main.m */; };
+		22424B562091E4E600D445CC /* Pixoneye_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22424B552091E4E600D445CC /* Pixoneye_TestTests.m */; };
+		22424B612091E4E600D445CC /* Pixoneye_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22424B602091E4E600D445CC /* Pixoneye_TestUITests.m */; };
+		22424B752091E8B700D445CC /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22424B742091E8B700D445CC /* Photos.framework */; };
+		22424B772091E8C300D445CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22424B762091E8C300D445CC /* CoreData.framework */; };
+		22424B792091E8D200D445CC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22424B782091E8D100D445CC /* AdSupport.framework */; };
+		22424B7B2091E8DC00D445CC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22424B7A2091E8DC00D445CC /* libz.tbd */; };
+		22424B7D2091E9A300D445CC /* PixoneyeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22424B6F2091E57B00D445CC /* PixoneyeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22424B522091E4E600D445CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22424B2E2091E4E400D445CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22424B352091E4E400D445CC;
+			remoteInfo = "Pixoneye Test";
+		};
+		22424B5D2091E4E600D445CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22424B2E2091E4E400D445CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22424B352091E4E400D445CC;
+			remoteInfo = "Pixoneye Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22424B7E2091E9A300D445CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22424B7D2091E9A300D445CC /* PixoneyeSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22424B362091E4E400D445CC /* Pixoneye Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixoneye Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22424B392091E4E400D445CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22424B3A2091E4E400D445CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22424B3C2091E4E400D445CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22424B3D2091E4E400D445CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22424B402091E4E400D445CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22424B432091E4E400D445CC /* Pixoneye_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pixoneye_Test.xcdatamodel; sourceTree = "<group>"; };
+		22424B452091E4E600D445CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22424B482091E4E600D445CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22424B4A2091E4E600D445CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22424B4B2091E4E600D445CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22424B512091E4E600D445CC /* Pixoneye TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pixoneye TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22424B552091E4E600D445CC /* Pixoneye_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pixoneye_TestTests.m; sourceTree = "<group>"; };
+		22424B572091E4E600D445CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22424B5C2091E4E600D445CC /* Pixoneye TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pixoneye TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22424B602091E4E600D445CC /* Pixoneye_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pixoneye_TestUITests.m; sourceTree = "<group>"; };
+		22424B622091E4E600D445CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22424B6F2091E57B00D445CC /* PixoneyeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PixoneyeSDK.framework; sourceTree = "<group>"; };
+		22424B742091E8B700D445CC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		22424B762091E8C300D445CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22424B782091E8D100D445CC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		22424B7A2091E8DC00D445CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		227DD8E22098BD5800DC8DE8 /* Pixoneye Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pixoneye Test.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22424B332091E4E400D445CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22424B7B2091E8DC00D445CC /* libz.tbd in Frameworks */,
+				22424B792091E8D200D445CC /* AdSupport.framework in Frameworks */,
+				22424B772091E8C300D445CC /* CoreData.framework in Frameworks */,
+				22424B752091E8B700D445CC /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22424B4E2091E4E600D445CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22424B592091E4E600D445CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22424B2D2091E4E400D445CC = {
+			isa = PBXGroup;
+			children = (
+				22424B6E2091E53600D445CC /* Frameworks */,
+				22424B382091E4E400D445CC /* Pixoneye Test */,
+				22424B542091E4E600D445CC /* Pixoneye TestTests */,
+				22424B5F2091E4E600D445CC /* Pixoneye TestUITests */,
+				22424B372091E4E400D445CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22424B372091E4E400D445CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22424B362091E4E400D445CC /* Pixoneye Test.app */,
+				22424B512091E4E600D445CC /* Pixoneye TestTests.xctest */,
+				22424B5C2091E4E600D445CC /* Pixoneye TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22424B382091E4E400D445CC /* Pixoneye Test */ = {
+			isa = PBXGroup;
+			children = (
+				227DD8E22098BD5800DC8DE8 /* Pixoneye Test.entitlements */,
+				22424B392091E4E400D445CC /* AppDelegate.h */,
+				22424B3A2091E4E400D445CC /* AppDelegate.m */,
+				22424B3C2091E4E400D445CC /* ViewController.h */,
+				22424B3D2091E4E400D445CC /* ViewController.m */,
+				22424B3F2091E4E400D445CC /* Main.storyboard */,
+				22424B452091E4E600D445CC /* Assets.xcassets */,
+				22424B472091E4E600D445CC /* LaunchScreen.storyboard */,
+				22424B4A2091E4E600D445CC /* Info.plist */,
+				22424B4B2091E4E600D445CC /* main.m */,
+				22424B422091E4E400D445CC /* Pixoneye_Test.xcdatamodeld */,
+			);
+			path = "Pixoneye Test";
+			sourceTree = "<group>";
+		};
+		22424B542091E4E600D445CC /* Pixoneye TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				22424B552091E4E600D445CC /* Pixoneye_TestTests.m */,
+				22424B572091E4E600D445CC /* Info.plist */,
+			);
+			path = "Pixoneye TestTests";
+			sourceTree = "<group>";
+		};
+		22424B5F2091E4E600D445CC /* Pixoneye TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22424B602091E4E600D445CC /* Pixoneye_TestUITests.m */,
+				22424B622091E4E600D445CC /* Info.plist */,
+			);
+			path = "Pixoneye TestUITests";
+			sourceTree = "<group>";
+		};
+		22424B6E2091E53600D445CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22424B7A2091E8DC00D445CC /* libz.tbd */,
+				22424B782091E8D100D445CC /* AdSupport.framework */,
+				22424B762091E8C300D445CC /* CoreData.framework */,
+				22424B742091E8B700D445CC /* Photos.framework */,
+				22424B6F2091E57B00D445CC /* PixoneyeSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22424B352091E4E400D445CC /* Pixoneye Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22424B652091E4E600D445CC /* Build configuration list for PBXNativeTarget "Pixoneye Test" */;
+			buildPhases = (
+				22424B322091E4E400D445CC /* Sources */,
+				22424B332091E4E400D445CC /* Frameworks */,
+				22424B342091E4E400D445CC /* Resources */,
+				22424B7E2091E9A300D445CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pixoneye Test";
+			productName = "Pixoneye Test";
+			productReference = 22424B362091E4E400D445CC /* Pixoneye Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22424B502091E4E600D445CC /* Pixoneye TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22424B682091E4E600D445CC /* Build configuration list for PBXNativeTarget "Pixoneye TestTests" */;
+			buildPhases = (
+				22424B4D2091E4E600D445CC /* Sources */,
+				22424B4E2091E4E600D445CC /* Frameworks */,
+				22424B4F2091E4E600D445CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22424B532091E4E600D445CC /* PBXTargetDependency */,
+			);
+			name = "Pixoneye TestTests";
+			productName = "Pixoneye TestTests";
+			productReference = 22424B512091E4E600D445CC /* Pixoneye TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22424B5B2091E4E600D445CC /* Pixoneye TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22424B6B2091E4E600D445CC /* Build configuration list for PBXNativeTarget "Pixoneye TestUITests" */;
+			buildPhases = (
+				22424B582091E4E600D445CC /* Sources */,
+				22424B592091E4E600D445CC /* Frameworks */,
+				22424B5A2091E4E600D445CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22424B5E2091E4E600D445CC /* PBXTargetDependency */,
+			);
+			name = "Pixoneye TestUITests";
+			productName = "Pixoneye TestUITests";
+			productReference = 22424B5C2091E4E600D445CC /* Pixoneye TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22424B2E2091E4E400D445CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "James Crosthwaite";
+				TargetAttributes = {
+					22424B352091E4E400D445CC = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					22424B502091E4E600D445CC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 22424B352091E4E400D445CC;
+					};
+					22424B5B2091E4E600D445CC = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 22424B352091E4E400D445CC;
+					};
+				};
+			};
+			buildConfigurationList = 22424B312091E4E400D445CC /* Build configuration list for PBXProject "Pixoneye Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22424B2D2091E4E400D445CC;
+			productRefGroup = 22424B372091E4E400D445CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22424B352091E4E400D445CC /* Pixoneye Test */,
+				22424B502091E4E600D445CC /* Pixoneye TestTests */,
+				22424B5B2091E4E600D445CC /* Pixoneye TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22424B342091E4E400D445CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22424B492091E4E600D445CC /* LaunchScreen.storyboard in Resources */,
+				22424B462091E4E600D445CC /* Assets.xcassets in Resources */,
+				22424B412091E4E400D445CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22424B4F2091E4E600D445CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22424B5A2091E4E600D445CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22424B322091E4E400D445CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22424B3E2091E4E400D445CC /* ViewController.m in Sources */,
+				22424B3B2091E4E400D445CC /* AppDelegate.m in Sources */,
+				22424B4C2091E4E600D445CC /* main.m in Sources */,
+				22424B442091E4E400D445CC /* Pixoneye_Test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22424B4D2091E4E600D445CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22424B562091E4E600D445CC /* Pixoneye_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22424B582091E4E600D445CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22424B612091E4E600D445CC /* Pixoneye_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22424B532091E4E600D445CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22424B352091E4E400D445CC /* Pixoneye Test */;
+			targetProxy = 22424B522091E4E600D445CC /* PBXContainerItemProxy */;
+		};
+		22424B5E2091E4E600D445CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22424B352091E4E400D445CC /* Pixoneye Test */;
+			targetProxy = 22424B5D2091E4E600D445CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22424B3F2091E4E400D445CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22424B402091E4E400D445CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22424B472091E4E600D445CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22424B482091E4E600D445CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22424B632091E4E600D445CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22424B642091E4E600D445CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22424B662091E4E600D445CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXQ63X6A43;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Pixoneye Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avios.pixoneyetest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22424B672091E4E600D445CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXQ63X6A43;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Pixoneye Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avios.pixoneyetest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22424B692091E4E600D445CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J9EHEZ3QX;
+				INFOPLIST_FILE = "Pixoneye TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "avios.Pixoneye-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixoneye Test.app/Pixoneye Test";
+			};
+			name = Debug;
+		};
+		22424B6A2091E4E600D445CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J9EHEZ3QX;
+				INFOPLIST_FILE = "Pixoneye TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "avios.Pixoneye-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixoneye Test.app/Pixoneye Test";
+			};
+			name = Release;
+		};
+		22424B6C2091E4E600D445CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J9EHEZ3QX;
+				INFOPLIST_FILE = "Pixoneye TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "avios.Pixoneye-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pixoneye Test";
+			};
+			name = Debug;
+		};
+		22424B6D2091E4E600D445CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J9EHEZ3QX;
+				INFOPLIST_FILE = "Pixoneye TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "avios.Pixoneye-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pixoneye Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22424B312091E4E400D445CC /* Build configuration list for PBXProject "Pixoneye Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22424B632091E4E600D445CC /* Debug */,
+				22424B642091E4E600D445CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22424B652091E4E600D445CC /* Build configuration list for PBXNativeTarget "Pixoneye Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22424B662091E4E600D445CC /* Debug */,
+				22424B672091E4E600D445CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22424B682091E4E600D445CC /* Build configuration list for PBXNativeTarget "Pixoneye TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22424B692091E4E600D445CC /* Debug */,
+				22424B6A2091E4E600D445CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22424B6B2091E4E600D445CC /* Build configuration list for PBXNativeTarget "Pixoneye TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22424B6C2091E4E600D445CC /* Debug */,
+				22424B6D2091E4E600D445CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22424B422091E4E400D445CC /* Pixoneye_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22424B432091E4E400D445CC /* Pixoneye_Test.xcdatamodel */,
+			);
+			currentVersion = 22424B432091E4E400D445CC /* Pixoneye_Test.xcdatamodel */;
+			path = Pixoneye_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22424B2E2091E4E400D445CC /* Project object */;
+}
